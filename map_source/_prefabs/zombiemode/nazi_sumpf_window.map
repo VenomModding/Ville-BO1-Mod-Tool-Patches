@@ -1,0 +1,148 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+}
+// entity 1
+{
+"classname" "script_brushmodel"
+"targetname" "auto114"
+"spawnflags" "1"
+"script_noteworthy" "clip"
+// brush 0
+{
+ ( 13 70 -23 ) ( 9 70 -23 ) ( 9 56 -23 ) clip_ai 63.953159 64 -7.25 -20.095692 0 6.8058282e-005 lightmap_gray 16390.002 16384.09 -7.2869263 -20.092884 0 7.9257574e-005
+ ( 9 47 95 ) ( 9 61 95 ) ( 13 61 95 ) clip_ai 63.890812 64 -7.0107751 -19.960526 0 -0.0002703261 lightmap_gray 16356.034 16384.396 -7.076591 -20.058693 0 -0.00020263606
+ ( 84 -45 109 ) ( 88 -45 109 ) ( 88 -45 97 ) clip_ai 64.046883 64 -7.0406227 -33.334564 0 0 lightmap_gray 16393.557 16383.607 -7.0528226 -33.465076 0 -3.3969405e-005
+ ( 20 -7 109 ) ( 20 7 109 ) ( 20 7 97 ) clip_ai 64 64 19.941158 -33 0 0 lightmap_gray 16384.148 16383.854 20.00226 -33 0 0
+ ( 14 44 109 ) ( 10 44 109 ) ( 10 44 97 ) clip_ai 64.072418 64 -6.8775549 -32.597469 0 0 lightmap_gray 16406.076 16384.137 -7.0293894 -32.809391 0 -3.0899115e-005
+ ( 16 61 109 ) ( 16 47 109 ) ( 16 47 97 ) clip_ai 64 64 19.959476 -32.98732 0 0 lightmap_gray 16384.838 16384.162 20.002882 -33 0 0
+}
+}
+// entity 2
+{
+"height" "64"
+"radius" "36"
+"targetname" "auto114"
+"origin" "17.5 -1.5 5.0"
+"angles" "0 360 0"
+"classname" "script_struct"
+}
+// entity 3
+{
+"classname" "script_struct"
+"angles" "0 360 0"
+"origin" "-30.5 -1.5 5.0"
+"targetname" "exterior_goal"
+"target" "auto114"
+}
+// entity 4
+{
+"targetname" "auto114"
+"script_parameters" "board"
+"spawnflags" "0"
+"script_noteworthy" "4"
+"script_team" "classic_boards"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 19.5 44.25 60 ) ( 17.5 44.25 60 ) ( 17.5 -44.5 57.25 ) jungle_woodpanel_wall 72.97773 -67 62.58556 -181.5 90 0 lightmap_gray 16378.379 16384.338 -15.099451 116.5 -90 0
+ ( 19.5 -44.75 65.5 ) ( 17.5 -44.75 65.5 ) ( 17.5 44 68 ) jungle_woodpanel_wall 72.977722 -67 62.376099 -181.5 90 0 lightmap_gray 16378.383 16383.668 -14.890467 116.49736 -90 0
+ ( 17.5 -44.5 57 ) ( 17.5 44.5 59.5 ) ( 17.5 44 68 ) jungle_woodpanel_wall 73 66.5 64.13578 17.010845 1.5 0 lightmap_gray 16384 -16384 -16.635971 41.486942 -178.5 0
+ ( 17.5 -44.75 65.5 ) ( 19.5 -44.75 65.5 ) ( 19.5 -44.5 57.25 ) jungle_woodpanel_wall 66.979195 -66.5 24.629139 58 -90 0 lightmap_gray 16383.654 16378.432 -116.49746 -40.349121 0 0
+ ( 19.5 44.5 59.5 ) ( 19.5 -44.5 57 ) ( 19.5 -45 65.5 ) jungle_woodpanel_wall 73 66.5 64.136398 17.012833 1.5 0 lightmap_gray 16384 -16383.889 -16.636084 41.486935 -178.5 0
+ ( 17.5 44.25 60 ) ( 19.5 44.25 60 ) ( 19.5 44 68 ) jungle_woodpanel_wall 66.979462 -66.5 22.313314 58 -90 0 lightmap_gray 16384.354 16378.346 -116.5 -42.66581 0 0
+}
+}
+// entity 5
+{
+"targetname" "auto114"
+"script_parameters" "board"
+"classname" "script_brushmodel"
+"script_team" "classic_boards"
+"script_noteworthy" "1"
+"spawnflags" "0"
+// brush 0
+{
+ ( 13.5 33 48 ) ( 11.5 33 48 ) ( 11.5 -44 73.5 ) jungle_woodpanel_wall 83.699081 84 44.738201 145.5 -90 0 lightmap_gray 16384 15583.022 -69.5 2.888438 0 0
+ ( 11.5 35.5 55.5 ) ( 13.5 35.5 55.5 ) ( 13.5 -41.5 81 ) jungle_woodpanel_wall 83.699059 84 41.950665 145.5 -90 0 lightmap_gray 16384 15583.012 -69.5 0.10166977 0 0
+ ( 11.5 -44 73.5 ) ( 11.5 -41.5 81 ) ( 13.5 -41.5 81 ) jungle_woodpanel_wall 68.455528 84 56.018375 145.5 -90 0 lightmap_gray 16384 15577.097 -69.5 -4.8311996 0 0
+ ( 13.5 33 47.5 ) ( 13.5 -44 73.5 ) ( 13.5 -41.5 81 ) jungle_woodpanel_wall 88 -72 64.892624 -80.030594 162 0 lightmap_gray 16384 16384.063 -20.892731 16.030659 -18 0
+ ( 11.5 33 48 ) ( 13.5 33 48 ) ( 13.5 35.5 55.5 ) jungle_woodpanel_wall 68.455154 84 83.247871 145.5 -90 0 lightmap_gray 16384 15577.132 -69.5 22.398726 0 0
+ ( 11.5 35.5 55.5 ) ( 11.5 -41.5 81 ) ( 11.5 -44 73.5 ) jungle_woodpanel_wall 88 -72 64.892792 -80.030441 162 0 lightmap_gray 16384 16384.068 -20.892887 16.030674 -18 0
+}
+}
+// entity 6
+{
+"targetname" "auto114"
+"script_parameters" "board"
+"classname" "script_brushmodel"
+"script_team" "classic_boards"
+"script_noteworthy" "6"
+"spawnflags" "0"
+// brush 0
+{
+ ( 17.5 -41.5 12 ) ( 19.5 -41.5 12 ) ( 19.5 39.5 27 ) jungle_woodpanel_wall 86.557121 84 43.144943 220.5 -90 0 lightmap_gray 16384 16114.808 -144.5 -0.13263769 0 0
+ ( 19.5 -43 20 ) ( 17.5 -43 20 ) ( 17.5 38.5 35 ) jungle_woodpanel_wall 86.557198 84 44.410412 220.5 -90 0 lightmap_gray 16384 16114.816 -144.5 1.132612 0 0
+ ( 19.5 -41.5 12 ) ( 17.5 -41.5 12 ) ( 17.5 -43 20 ) jungle_woodpanel_wall 70.819824 84 62.630192 220.5 -90 0 lightmap_gray 16383.957 16114.84 -144.5 -0.32042369 0 0
+ ( 19.5 43.5 28 ) ( 19.5 -43 12 ) ( 19.5 -44.5 19.5 ) jungle_woodpanel_wall 88 -72 40.15868 -56.30191 -169.59999 0 lightmap_gray 16384 16384 3.8413506 -7.6991291 10.399997 0
+ ( 17.5 39.5 27 ) ( 19.5 39.5 27 ) ( 19.5 38.5 35 ) jungle_woodpanel_wall 70.819786 84 46.745476 220.5 -90 0 lightmap_gray 16384.025 16114.813 -144.5 -16.205507 0 0
+ ( 17.5 42 35.5 ) ( 17.5 -44.5 19.5 ) ( 17.5 -43 12 ) jungle_woodpanel_wall 88 -72 40.158714 -56.301964 -169.59999 0 lightmap_gray 16384 16383.982 3.8413312 -7.6990871 10.399997 0
+}
+}
+// entity 7
+{
+"targetname" "auto114"
+"script_parameters" "board"
+"classname" "script_brushmodel"
+"script_team" "classic_boards"
+"script_noteworthy" "3"
+"spawnflags" "0"
+// brush 0
+{
+ ( 13.5 -17 -14.5 ) ( 15.5 -17 -14.5 ) ( 15.5 -11.5 91.5 ) jungle_woodpanel_wall 87.852989 84 -3.8369532 237 -90 0 lightmap_gray 16383.984 16356.389 -161 -47.763027 0 0
+ ( 15.5 -25 -14 ) ( 13.5 -25 -14 ) ( 13.5 -19.5 92 ) jungle_woodpanel_wall 87.852943 84 -4.2999463 237 -90 0 lightmap_gray 16383.926 16356.389 -161 -48.224209 0 0
+ ( 15.5 -17 -14.5 ) ( 13.5 -17 -14.5 ) ( 13.5 -25 -14 ) jungle_woodpanel_wall 71.925598 -84 86.732964 -237 90 0 lightmap_gray 16384.117 -16366.813 -161 -22.79764 0 0
+ ( 15.5 -11 92 ) ( 15.5 -17 -13.5 ) ( 15.5 -25 -13.5 ) jungle_woodpanel_wall 88 -72 -206.91515 -28.888489 -93.300003 0 lightmap_gray 16384 16384 46.912727 22.887413 86.700012 0
+ ( 12.5 -11.5 91.5 ) ( 17 -11.5 91.5 ) ( 17 -19.5 92 ) jungle_woodpanel_wall 71.925934 -84 92.04406 -237 90 0 lightmap_gray 16383.895 -16366.769 -161 -28.109411 0 0
+ ( 13.5 -19 92 ) ( 13.5 -25 -13.5 ) ( 13.5 -17 -13.5 ) jungle_woodpanel_wall 88 -72 -2.912714 -86.887421 -93.299995 0 lightmap_gray 16384 16384 46.912666 22.887411 86.699928 0
+}
+}
+// entity 8
+{
+"targetname" "auto114"
+"script_parameters" "board"
+"classname" "script_brushmodel"
+"script_team" "classic_boards"
+"script_noteworthy" "2"
+"spawnflags" "0"
+// brush 0
+{
+ ( 13.5 19 -18 ) ( 15.5 19 -18 ) ( 15.5 5.5 91 ) jungle_woodpanel_wall 87.306976 84 -4.9277096 239 -90 0 lightmap_gray 16384 16254.744 -163 -48.581242 0 0
+ ( 15.5 11.5 -19 ) ( 13.5 11.5 -19 ) ( 13.5 -2.5 90 ) jungle_woodpanel_wall 87.306892 84 -3.2545295 239 -90 0 lightmap_gray 16384 16254.708 -163 -46.908531 0 0
+ ( 15.5 19 -18 ) ( 13.5 19 -18 ) ( 13.5 11.5 -19 ) jungle_woodpanel_wall 71.434151 -84 138.79485 -239 90 0 lightmap_gray 16384.02 -16254.687 -163 -75.294945 0 0
+ ( 15.5 5.5 91 ) ( 15.5 19 -18 ) ( 15.5 11 -19 ) jungle_woodpanel_wall 88 -72 14.380535 -180.1445 -82.799965 0 lightmap_gray 16384 16384.016 46.619434 76.144669 97.200073 0
+ ( 15.5 5.5 91 ) ( 15.5 -2.5 90 ) ( 13.5 -2.5 90 ) jungle_woodpanel_wall 71.434174 -84 127.68994 -239 90 0 lightmap_gray 16384 -16254.678 -163 -64.18943 0 0
+ ( 13.5 -2.5 90 ) ( 13.5 11 -19 ) ( 13.5 19 -18 ) jungle_woodpanel_wall 88 -72 -2.6194594 -140.14462 -82.799995 0 lightmap_gray 16384 16383.973 46.619469 76.144577 97.199989 0
+}
+}
+// entity 9
+{
+"targetname" "auto114"
+"script_parameters" "board"
+"classname" "script_brushmodel"
+"script_team" "classic_boards"
+"script_noteworthy" "5"
+"spawnflags" "0"
+// brush 0
+{
+ ( 19.5 41.25 44.25 ) ( 17.5 41.25 44.25 ) ( 17.5 -42.5 48.75 ) jungle_woodpanel_wall 64.661629 -63.5 86.921089 19.5 90 0 lightmap_gray 16361.545 16384 -38.986324 -52.5 -90 0
+ ( 17.5 41.75 52.25 ) ( 19.5 41.75 52.25 ) ( 19.5 -42 56.75 ) jungle_woodpanel_wall 64.661636 -63.5 87.339745 19.5 90 0 lightmap_gray 16361.551 16384 -39.405689 -52.5 -90 0
+ ( 17.5 41.25 44.25 ) ( 17.5 41.75 52.25 ) ( 17.5 -42 56.75 ) jungle_woodpanel_wall 64.75 62 84.607376 46.588928 -3 0 lightmap_gray 16384 -16384.029 -36.607502 13.661132 177 0
+ ( -44 -41.25 72 ) ( -5 -41.25 72 ) ( -5 -41.75 59.5 ) jungle_woodpanel_wall 63.5 -61.915577 -19.5 -44.175091 180 0 lightmap_gray 16384 16361.539 52.5 -15.992001 0 0
+ ( 19.5 41.75 52.25 ) ( 19.5 41.25 44.25 ) ( 19.5 -42.5 48.75 ) jungle_woodpanel_wall 64.75 62 95.607567 45.589005 -3 0 lightmap_gray 16384 -16384.035 -36.607449 13.661139 177 0
+ ( -5 42.5 68.5 ) ( -44 42.5 68.5 ) ( -44 41.75 56 ) jungle_woodpanel_wall 63.5 -61.915451 -19.5 -48.558998 -180 0 lightmap_gray 16384 16361.561 52.5 -11.608719 0 0
+}
+}

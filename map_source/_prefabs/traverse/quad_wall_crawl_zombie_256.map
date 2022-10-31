@@ -1,0 +1,90 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"exposure" "1"
+"treescatteramount" "0"
+"treescatterintensity" "0"
+"ambientintensity" ".1"
+"sunshadowintensity" "4.5"
+"sunlight" "5.5"
+"_ambientcolor" "0.5 0.55 0.62"
+"_sunshadowcolor" "0.4 0.55 0.75"
+"suncolor" "0.64 0.85 1"
+"newsun" "1"
+"sundirection" "-150 17 0"
+"classname" "worldspawn"
+"skyboxmodel" "skybox_night"
+// brush 0
+{
+ ( 792 904 520 ) ( 1016 904 520 ) ( 1016 744 520 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 560 -1968 0 0
+ ( 792 744 -256 ) ( 792 744 536 ) ( 1016 744 536 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 560 360 0 0
+ ( 1016 904 -256 ) ( 1016 744 -256 ) ( 1016 744 536 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 1968 360 0 0
+ ( 936 904 -256 ) ( 936 904 536 ) ( 712 904 536 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 560 360 0 0
+ ( 712 904 536 ) ( 712 744 536 ) ( 712 744 -256 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 1968 360 0 0
+ ( 848 -328 512 ) ( 872 -328 512 ) ( 848 -296 512 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 328 0 0
+}
+// brush 1
+{
+ ( 888 856 8 ) ( 872 856 8 ) ( 872 784 8 ) traverse 64 64 -834 846 180 0 lightmap_gray 16384 16384 -822 818 180 0
+ ( 888 768 264 ) ( 872 768 264 ) ( 872 840 264 ) traverse 64 64 -834 846 180 0 lightmap_gray 16384 16384 -822 818 180 0
+ ( 888 856 768 ) ( 872 856 768 ) ( 872 856 8 ) traverse 64 -64 -834 -48 180 0 lightmap_gray 16384 -16384 -822 8 180 0
+ ( 880 848 -184 ) ( 880 848 576 ) ( 880 776 576 ) traverse 64 -64 -846 -48 180 0 lightmap_gray 16384 -16384 -818 8 180 0
+ ( 888 784 144 ) ( 872 784 144 ) ( 872 784 904 ) traverse 64 -64 -834 -48 180 0 lightmap_gray 16384 -16384 -822 8 180 0
+ ( 896 784 -104 ) ( 896 784 656 ) ( 896 856 656 ) traverse 64 -64 -846 -48 180 0 lightmap_gray 16384 -16384 -818 8 180 0
+}
+}
+// entity 1
+{
+"targetname" "auto18"
+"origin" "864.0 816.0 24.0"
+"angles" "0 180 0"
+"classname" "node_negotiation_end"
+"spawnflags" "-32766"
+}
+// entity 2
+{
+"classname" "script_struct"
+"targetname" "quad_roof_crumble_fx_origin_6"
+"origin" "880.0 810.0 136.0"
+"script_noteworthy" "quad_roof_crumble_fx_origin"
+"angles" "0 180 0"
+}
+// entity 3
+{
+"classname" "script_struct"
+"targetname" "quad_roof_break_origin_6"
+"origin" "880.0 822.0 136.0"
+"script_noteworthy" "quad_roof_break_origin"
+"angles" "0 180 0"
+}
+// entity 4
+{
+"classname" "script_struct"
+"origin" "896.0 816.0 264.0"
+"angles" "0 180 0"
+"targetname" "auto18"
+}
+// entity 5
+{
+"animscript" "zombie_wall_crawl_drop_quick"
+"targetname" "auto19"
+"spawnflags" "-32766"
+"classname" "node_negotiation_begin"
+"angles" "0 180 0"
+"origin" "728.0 816.0 536.0"
+"target" "auto18"
+}
+// entity 6
+{
+"angles" "0 180 0"
+"classname" "node_pathnode"
+"origin" "816.0 816.0 536.0"
+}
+// entity 7
+{
+"origin" "896.0 816.0 536.0"
+"classname" "node_pathnode"
+"angles" "0 180 0"
+}

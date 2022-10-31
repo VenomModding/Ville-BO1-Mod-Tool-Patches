@@ -1,0 +1,2 @@
+rawfile,animscripts/traverse/zombie_quad_vent_jump_down.gsc
+xanim,ai_zombie_quad_jump_down_vent
