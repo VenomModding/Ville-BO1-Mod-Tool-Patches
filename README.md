@@ -1,5 +1,5 @@
 # Ville88's Black Ops Mod Tools Patches
-Mod Tools Patches done by Ville88, uploaded here for easier downloads.
+Mod Tools Patches done by Ville88, uploaded here as a mirror download in case if originals go down.
 
 This was authorized by Ville88.
 
