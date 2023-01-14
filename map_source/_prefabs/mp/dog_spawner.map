@@ -1,0 +1,23 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"_color" "0.5 0.5 .62 1"
+"ambient" ".2"
+"sundiffusecolor" "0.75 0.82 0.85"
+"diffusefraction" ".2"
+"classname" "worldspawn"
+"sundirection" "-80 172 0"
+"suncolor" "0.9 0.95 1"
+"sunlight" "1.5"
+}
+// entity 1
+{
+"classname" "actor_enemy_dog_mp"
+"model" "german_shepherd"
+"export" "2"
+"origin" "0.0 0.0 0.0"
+"targetname" "dog_spawner"
+"spawnflags" "1"
+}
