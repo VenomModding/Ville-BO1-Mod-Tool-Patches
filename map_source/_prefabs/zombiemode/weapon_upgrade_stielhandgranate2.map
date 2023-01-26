@@ -1,0 +1,90 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"origin" "-404 1216 -640"
+"spawnflags" "1024"
+"waterdirection " "80"
+"classname" "worldspawn"
+"northyaw" "225"
+"skyboxmodel" "skybox_pel1"
+"sundirection" "-40.5026 38.2786 0"
+"suncolor" "1 0.9254 0.8627"
+"sunlight" "1"
+"sundiffusecolor" "0.255 0.34078 0.427451"
+"diffusefraction" "0.175"
+"_color" "0.245 0.231 0.2135"
+"ambient" "0.15"
+"sunradiosity" "1.3"
+"radiosityscale" ".75"
+"contrastgain" ".8"
+}
+// entity 1
+{
+"script_noteworthy" "stielhandgranate"
+"angles" "0 0 0"
+"target" "stielhandgranate2"
+"zombie_weapon_upgrade" "stielhandgranate"
+"targetname" "weapon_upgrade"
+"origin" "0 0 0"
+"classname" "trigger_use"
+// brush 0
+{
+ ( -26 4 -8 ) ( -26 -4 -8 ) ( 29 -4 -8 ) trigger 64 64 404 1219.9969 90 0 lightmap_gray 16384 16384 404.00305 1220 90 0
+ ( 25 -4 14 ) ( -30 -4 14 ) ( -30 4 14 ) trigger 64 64 404 1220 90 0 lightmap_gray 16383.875 16384 403.99738 1220 90 0
+ ( 8 -5 6 ) ( 8 3 6 ) ( 8 3 -6 ) trigger 64 64 404 -642.00482 0 0 lightmap_gray 16384 16384.334 404.00433 -642.01202 0 0
+ ( 28 0 6 ) ( -27 0 6 ) ( -27 0 -6 ) trigger 64 -64 -1219.9973 642 180 0 lightmap_gray 16384 -16384.324 -1219.9973 642.01282 180 0
+ ( -12 4 6 ) ( -12 -4 6 ) ( -12 -4 -6 ) trigger 64 64 404 -642.00623 0 0 lightmap_gray 16384.5 16384 404.0141 -642 0 0
+ ( -26 -3 6 ) ( 29 -3 6 ) ( 29 -3 -6 ) trigger 64 -64 -1220.0242 642.01263 180 0 lightmap_gray 16384.385 -16384.063 -1220.0247 642.00482 180 0
+}
+}
+// entity 2
+{
+"targetname" "stielhandgranate_chalk2"
+"angles" "0 0 0"
+"origin" "0 0 0"
+"classname" "script_brushmodel"
+// brush 0
+ {
+  curve
+  {
+   grenade_bag_chalk
+   lightmap_gray
+   3 3 16 8
+   (
+	v -6.9616623 0 -13.729048 t 0 -0 -0.31010386 0.82681549
+	v -12.595366 0 -3.133698 t 0 -512 -0.66221035 0.16460612
+	v -18.22905 0 7.4616642 t 0 -1024 -1.0143156 -0.49760404
+   )
+   (
+	v 3.6337004 0 -8.0953636 t 512 -0 0.35210627 0.47471026
+	v -1.9999967 0 2.500001 t 512 -512 2.0888386e-007 -0.1875
+	v -7.6336956 0 13.095371 t 512 -1024 -0.35210595 -0.8497107
+   )
+   (
+	v 14.229057 0 -2.4616628 t 1024 -0 1.0143161 0.12260392
+	v 8.5953712 0 8.1337013 t 1024 -512 0.6622107 -0.53960633
+	v 2.9616671 0 18.729048 t 1024 -1024 0.31010419 -1.2018155
+   )
+  }
+ }
+// brush 1
+{
+ ( -1.5 0 11.5 ) ( -2.5 0 11.5 ) ( -2.5 -3 11.5 ) berlin_trim_metal3 128 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2.5 -3 12.5 ) ( -2.5 0 12.5 ) ( -1.5 0 12.5 ) berlin_trim_metal3 128 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2.5 -3 12.5 ) ( -1.5 -3 12.5 ) ( -1.5 -3 11.5 ) berlin_trim_metal3 128 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1.5 -3 12.5 ) ( -1.5 0 12.5 ) ( -1.5 0 11.5 ) berlin_trim_metal3 128 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1.5 1 12.5 ) ( -2.5 1 12.5 ) ( -2.5 1 11.5 ) berlin_trim_metal3 128 16 0 0 0 0 lightmap_gray 16384 16384.031 0 0 0 0
+ ( -2.5 0 12.5 ) ( -2.5 -3 12.5 ) ( -2.5 -3 11.5 ) berlin_trim_metal3 128 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 3
+{
+"target" "stielhandgranate_chalk2"
+"classname" "script_model"
+"origin" "0.0 0.0 0.0"
+"model" "german_grenade_bag"
+"angles" "60.2 2.25347e-006 -180"
+"targetname" "stielhandgranate2"
+}

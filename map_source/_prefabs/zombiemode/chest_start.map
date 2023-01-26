@@ -1,0 +1,61 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+}
+// entity 1
+{
+"classname" "trigger_use"
+"origin" "-594 -206 263"
+"target" "magic_box_lid_0"
+"targetname" "treasure_chest_use"
+"script_noteworthy" "start_chest"
+"zombie_cost" "950"
+// brush 0
+{
+ ( 21.5 -24.5 18 ) ( 37.5 -24.5 18 ) ( 37.5 23.5 18 ) trigger 64 -64 -575.5 169.51686 180 0 lightmap_gray 16384.066 16384.25 575.5033 -169.49176 0 0
+ ( 19.5 24 56 ) ( 35.5 24 56 ) ( 35.5 -24 56 ) trigger 64 -64 -575.5 169.5 180 0 lightmap_gray 16383.879 16383.889 575.50134 -169.49643 0 0
+ ( 19.5 -12 7 ) ( 19.5 -12 43 ) ( 35.5 -12 43 ) trigger 64 -64 -575.50232 -258 180 0 lightmap_gray 16384 16384.152 575.49664 258 0 0
+ ( 36 23.5 8 ) ( 36 -24.5 8 ) ( 36 -24.5 44 ) trigger 64 -64 -169.51421 -258 180 0 lightmap_gray 16384.389 16383.848 169.5 258 0 0
+ ( 35.5 14 8 ) ( 35.5 14 44 ) ( 19.5 14 44 ) trigger 64 -64 -575.49774 -258 180 0 lightmap_gray 16383.887 16383.746 575.5 258 0 0
+ ( 16 23.5 44 ) ( 16 -24.5 44 ) ( 16 -24.5 8 ) trigger 64 -64 -169.52632 -258 180 0 lightmap_gray 16384.256 16383.717 169.5 258 0 0
+}
+}
+// entity 2
+{
+"origin" "0.0 0.0 0.0"
+"gndlt" "375761001c"
+"classname" "script_model"
+"model" "zombie_treasure_box"
+"angles" "0 270 0"
+"targetname" "magic_box_base_0"
+}
+// entity 3
+{
+"origin" "0.0 0.0 3.0"
+"targetname" "magic_box_weapon_spawn_0"
+"angles" "0 0 0"
+"classname" "script_origin"
+"target" "magic_box_base_0"
+}
+// entity 4
+{
+"gndlt" "35555f001c"
+"target" "magic_box_weapon_spawn_0"
+"targetname" "magic_box_lid_0"
+"origin" "-12.0 0.0 18.0"
+"angles" "0 270 0"
+"model" "zombie_treasure_box_lid"
+"classname" "script_model"
+}
+// entity 5
+{
+"gndlt" "375761001c"
+"origin" "0.0 0.0 0.0"
+"script_noteworthy" "start_chest_rubble"
+"angles" "0 270 0"
+"model" "zombie_treasure_box_rubble"
+"classname" "script_model"
+}

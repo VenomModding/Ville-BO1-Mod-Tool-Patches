@@ -1,0 +1,65 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"exposure" "4"
+"sunlight" "3.25"
+"suncolor" "0.59 0.79 1"
+"sundirection" "-146.5 311.8 0"
+"classname" "worldspawn"
+"diffusefraction" "0.3"
+"sundiffusecolor" "0.75 0.75 0.75"
+"ambient" "0.20"
+"_color" "0.2 0.45 1"
+"skyboxmodel" "skybox_zombie_cod5_factory"
+"spawnflags" "512"
+"origin" "0 0 0"
+"sunradiosity" "1.2"
+// brush 0
+{
+ ( 552 -1744 54 ) ( 510 -1744 54 ) ( 510 -1754 54 ) clip_metal 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 509.5 -1754 149.5 ) ( 509.5 -1744 149.5 ) ( 551.5 -1744 149.5 ) clip_metal 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 510 -1753.5 147.5 ) ( 552 -1753.5 147.5 ) ( 552 -1753.5 53.5 ) clip_metal 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 551 -1754 147.5 ) ( 551 -1744 147.5 ) ( 551 -1744 53.5 ) clip_metal 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 552 -1743.5 148 ) ( 510 -1743.5 148 ) ( 510 -1743.5 54 ) clip_metal 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 511.5 -1744 147.5 ) ( 511.5 -1754 147.5 ) ( 511.5 -1754 53.5 ) clip_metal 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"targetname" "use_power_switch"
+"classname" "trigger_use"
+// brush 0
+{
+ ( 534 -1758 84 ) ( 530 -1758 84 ) ( 530 -1760 84 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 530 -1760 116 ) ( 530 -1758 116 ) ( 534 -1758 116 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 530 -1774 112 ) ( 534 -1774 112 ) ( 534 -1774 96 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 544 -1760 112 ) ( 544 -1758 112 ) ( 544 -1758 96 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 524 -1754 112 ) ( 520 -1754 112 ) ( 520 -1754 96 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 516 -1758 112 ) ( 516 -1760 112 ) ( 516 -1760 96 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 2
+{
+"classname" "misc_model"
+"model" "zombie_power_lever"
+"origin" "531.2 -1748.3 54.0"
+"angles" "0.0000 0.0000 0.0000"
+"modelscale" "1"
+}
+// entity 3
+{
+"angles" "0 90 0"
+"origin" "531.7 -1757.4 113.0"
+"targetname" "power_switch_fx"
+"classname" "script_struct"
+}
+// entity 4
+{
+"targetname" "power_switch"
+"angles" "5.61312e-006 2.50448e-006 90"
+"origin" "530.7 -1755.9 100.0"
+"classname" "script_model"
+"model" "zombie_power_lever_handle_arm"
+}

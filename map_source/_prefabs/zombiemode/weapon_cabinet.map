@@ -1,0 +1,73 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 15 19 0 ) ( -10 19 0 ) ( -10 -19 0 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -14 -19 113 ) ( -14 19 113 ) ( 11 19 113 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -13 -19 72 ) ( 12 -19 72 ) ( 12 -19 42 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -19 83 ) ( 12 19 83 ) ( 12 19 53 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 19 72 ) ( -13 19 72 ) ( -13 19 42 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -13 19 72 ) ( -13 -19 72 ) ( -13 -19 42 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"classname" "trigger_use"
+"target" "auto2"
+"targetname" "weapon_cabinet_use"
+"zombie_weapon_upgrade" "kar98k_scoped_zombie"
+"zombie_cost" "1500"
+// brush 0
+{
+ ( 20 12 42 ) ( 11 12 42 ) ( 11 -14 42 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 11 -14 72 ) ( 11 12 72 ) ( 20 12 72 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 11 -11 78 ) ( 20 -11 78 ) ( 20 -11 23 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20 -14 80 ) ( 20 12 80 ) ( 20 12 25 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20 10 79 ) ( 11 10 79 ) ( 11 10 24 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 11 12 80 ) ( 11 -14 80 ) ( 11 -14 25 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 2
+{
+"no_collmap" "1"
+"origin" "0.0 0.0 0.0"
+"angles" "0 90 0"
+"model" "dest_test_cabinet_main_dmg0"
+"classname" "misc_model"
+}
+// entity 3
+{
+"no_collmap" "1"
+"targetname" "auto2"
+"angles" "0 90 0"
+"origin" "10.5 -16.0 53.0"
+"model" "dest_test_cabinet_rdoor_dmg0"
+"classname" "script_model"
+}
+// entity 4
+{
+"no_collmap" "1"
+"targetname" "auto2"
+"angles" "0 90 0"
+"origin" "10.5 16.0 53.0"
+"model" "dest_test_cabinet_ldoor_dmg0"
+"classname" "script_model"
+}
+// entity 5
+{
+"origin" "-5.5 8.0 49.0"
+"angles" "270.803 265.434 5.36454"
+"model" "weapon_mp_kar98_scoped_rifle"
+"classname" "script_model"
+}
+// entity 6
+{
+"origin" "-5.5 -8.0 49.0"
+"angles" "270.803 85.234 5.36467"
+"model" "weapon_mp_kar98_scoped_rifle"
+"classname" "script_model"
+}

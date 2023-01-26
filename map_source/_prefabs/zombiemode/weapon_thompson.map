@@ -1,0 +1,62 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"reflection_color_correction" "zombie"
+"skyboxmodel" "skybox_zombie"
+"sunisprimarylight" "1"
+"bouncefraction" "0.3"
+"contrastgain" "0.35"
+"_color" "0.5 0.5 0.7"
+"ambient" "0.1"
+"sundiffusecolor" "0.25 0.55 0.8"
+"diffusefraction" "0.15"
+"classname" "worldspawn"
+"sundirection" "-150 17 0"
+"suncolor" "0.64 0.85 1"
+"sunlight" "0.75"
+// brush 0
+ {
+  mesh
+  {
+   thompson_chalk
+   lightmap_gray
+   2 2 16 8
+   (
+	v 962 1009.5 49 t -10240.768 -11264 9.0937271 -8.25
+	v 923.5 1009.5 49 t -11264.768 -11264 6.6874847 -8.25
+   )
+   (
+	v 962 1009.5 67.5 t -10240.768 -12288 9.0937271 -9.40625
+	v 923.5 1009.5 67.5 t -11264.768 -12288 6.6874847 -9.40625
+   )
+  }
+ }
+}
+// entity 1
+{
+"script_ammo_clip" "600"
+"target" "auto37"
+"zombie_cost" "1200"
+"zombie_weapon_upgrade" "zombie_thompson"
+"targetname" "weapon_upgrade"
+"classname" "trigger_use"
+// brush 0
+{
+ ( 918 1008 54 ) ( 918 1006 54 ) ( 970 1006 54 ) trigger 64.052544 64.004189 -787.71967 4599.9512 -91.39476 -0.0004599379 lightmap_gray 16409.627 16386.844 -787.45068 4604.9399 -91.635483 -0.0052011912
+ ( 970 1008 64 ) ( 970 1006 64 ) ( 918 1006 64 ) trigger 64.048706 64.001472 -787.5249 4599.1147 -91.364883 -0.00041247194 lightmap_gray 16401.002 16382.197 -787.64612 4596.5615 -91.262169 0.001
+ ( 924 1008 66 ) ( 924 1006 66 ) ( 924 1006 54 ) trigger 64.030228 -64 -765.69214 -38.237915 180 0 lightmap_gray 16391.313 -16383.938 -765.78326 -38.222084 -180 0
+ ( 970 1006 54 ) ( 918 1006 54 ) ( 918 1006 66 ) trigger 64 64 -4574.7285 38.33271 0 0.00012225306 lightmap_gray 16387.473 16384.016 -4575.8853 38.332016 0 0.00012225317
+ ( 960 1008 54 ) ( 960 1006 54 ) ( 960 1006 66 ) trigger 64.009674 -64 -765.18256 -38.328979 180 0 lightmap_gray 16379.304 -16384 -765.32703 -38.328979 180 0
+ ( 970 1008 66 ) ( 918 1008 66 ) ( 918 1008 54 ) trigger 64 64 -4574.6631 38.319695 0 -0.00024366693 lightmap_gray 16366.372 16384 -4568.7285 38.319695 0 0.00024524919
+}
+}
+// entity 2
+{
+"targetname" "auto37"
+"classname" "script_model"
+"model" "weapon_zombie_thompson_smg"
+"angles" "0 180 0"
+"origin" "935.5 1009.5 61.0"
+}

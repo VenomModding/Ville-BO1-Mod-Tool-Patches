@@ -1,0 +1,15 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+}
+// entity 1
+{
+"spawnflags" "0"
+"targetname" "kzmb"
+"origin" "0.0 0.0 0.0"
+"model" "static_berlin_ger_radio"
+"classname" "script_model"
+}

@@ -1,0 +1,81 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"origin" "-404 1216 -640"
+"spawnflags" "1024"
+"waterdirection " "80"
+"classname" "worldspawn"
+"northyaw" "225"
+"skyboxmodel" "skybox_pel1"
+"sundirection" "-40.5026 38.2786 0"
+"suncolor" "1 0.9254 0.8627"
+"sunlight" "1"
+"sundiffusecolor" "0.255 0.34078 0.427451"
+"diffusefraction" "0.175"
+"_color" "0.245 0.231 0.2135"
+"ambient" "0.15"
+"sunradiosity" "1.3"
+"radiosityscale" ".75"
+"contrastgain" ".8"
+}
+// entity 1
+{
+"target" "stg44_chalk"
+"angles" "0 0 0"
+"targetname" "stg44"
+"origin" "0.0 0.0 0.0"
+"model" "weapon_zombie_mp44_lmg"
+"classname" "script_model"
+}
+// entity 2
+{
+"script_noteworthy" "stg44"
+"angles" "0 0 0"
+"origin" "0 0 0"
+"zombie_weapon_upgrade" "zombie_stg44"
+"targetname" "weapon_upgrade"
+"target" "stg44"
+"classname" "trigger_use"
+// brush 0
+{
+ ( 24 0 -11 ) ( -24 0 -11 ) ( -24 -4 -11 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -4 5 ) ( -24 0 5 ) ( 24 0 5 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -3 1 ) ( 24 -3 1 ) ( 24 -3 -3 ) trigger 64 64 0 -1 0 0 lightmap_gray 16384 16384 0 -1 0 0
+ ( 14 -4 0 ) ( 14 0 0 ) ( 14 0 -4 ) trigger 64 64 0 -1 0 0 lightmap_gray 16384 16384 0 -1 0 0
+ ( 24 0 1 ) ( -24 0 1 ) ( -24 0 -3 ) trigger 64 64 0 -1 0 0 lightmap_gray 16384 16384 0 -1 0 0
+ ( -24 0 1 ) ( -24 -4 1 ) ( -24 -4 -3 ) trigger 64 64 0 -1 0 0 lightmap_gray 16384 16384 0 -1 0 0
+}
+}
+// entity 3
+{
+"origin" "0 0 0"
+"angles" "0 0 0"
+"targetname" "stg44_chalk"
+"classname" "script_brushmodel"
+// brush 0
+ {
+  curve
+  {
+   stg44_chalk
+   lightmap_gray
+   3 3 16 8
+   (
+	v 16.5 0 7.0000038 t 0 -1024 1.5 -0.1875
+	v 16.5 0 -3.4999986 t 0 -512 1.5 0.125
+	v 16.5 0 -14 t 0 -0 1.5 0.4375
+   )
+   (
+	v -4.7500019 0 7.0000038 t 512 -1024 0 -0.1875
+	v -4.7500019 0 -3.4999986 t 512 -512 0 0.125
+	v -4.7500019 0 -14 t 512 -0 0 0.4375
+   )
+   (
+	v -26.000004 0 7.0000038 t 1024 -1024 -1.5 -0.1875
+	v -26.000004 0 -3.4999986 t 1024 -512 -1.5 0.125
+	v -26.000004 0 -14 t 1024 -0 -1.5 0.4375
+   )
+  }
+ }
+}

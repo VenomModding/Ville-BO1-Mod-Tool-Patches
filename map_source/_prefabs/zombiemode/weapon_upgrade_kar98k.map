@@ -1,0 +1,67 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"origin" "-404 1216 -640"
+"spawnflags" "1024"
+"waterdirection " "80"
+"classname" "worldspawn"
+"northyaw" "225"
+"skyboxmodel" "skybox_pel1"
+"sundirection" "-40.5026 38.2786 0"
+"suncolor" "1 0.9254 0.8627"
+"sunlight" "1"
+"sundiffusecolor" "0.255 0.34078 0.427451"
+"diffusefraction" "0.175"
+"_color" "0.245 0.231 0.2135"
+"ambient" "0.15"
+"sunradiosity" "1.3"
+"radiosityscale" ".75"
+"contrastgain" ".8"
+// brush 0
+ {
+  mesh
+  {
+  toolFlags;
+   k98_chalk
+   lightmap_gray
+   2 2 16 8
+   (
+	v 32.000008 0 5.0000014 t 0 -1024 2 -0.3125
+	v 32.000008 0 -8 t 0 -0 2 0.5
+   )
+   (
+	v -28.000008 0 5.0000014 t 1024 -1024 -1.75 -0.3125
+	v -28.000008 0 -8 t 1024 -0 -1.75 0.5
+   )
+  }
+ }
+}
+// entity 1
+{
+"target" "kar98k"
+"classname" "trigger_use"
+"targetname" "weapon_upgrade"
+"zombie_weapon_upgrade" "zombie_kar98k"
+"origin" "0 0 0"
+"angles" "0 0 0"
+"script_noteworthy" "kar98k"
+// brush 0
+{
+ ( 26 0 -5 ) ( -22 0 -5 ) ( -22 -4 -5 ) trigger 64 64 2 0 0 0 lightmap_gray 16384 16384 2 0 0 0
+ ( -23 -4 5 ) ( -23 0 5 ) ( 25 0 5 ) trigger 64 64 2 0 0 0 lightmap_gray 16384 16384 2 0 0 0
+ ( -22 -3 3 ) ( 26 -3 3 ) ( 26 -3 -1 ) trigger 64 64 2 -3 0 0 lightmap_gray 16384 16384 2 -3 0 0
+ ( 30 -4 3 ) ( 30 0 3 ) ( 30 0 -1 ) trigger 64 64 0 -3 0 0 lightmap_gray 16384 16383.988 0 -3 0 0
+ ( 28 0 3 ) ( -20 0 3 ) ( -20 0 -1 ) trigger 64 64 2 -3 0 0 lightmap_gray 16384 16383.977 2 -3 0 0
+ ( -23 0 3 ) ( -23 -4 3 ) ( -23 -4 -1 ) trigger 64 64 0 -3 0 0 lightmap_gray 16384 16384 0 -3 0 0
+}
+}
+// entity 2
+{
+"classname" "script_model"
+"model" "weapon_ger_kar98_rifle"
+"origin" "-2.0 0.0 0.0"
+"targetname" "kar98k"
+"angles" "0 0 0"
+}

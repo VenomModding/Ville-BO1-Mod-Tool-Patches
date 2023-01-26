@@ -1,0 +1,14 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+}
+// entity 1
+{
+"angles" "0 2.50448e-006 0"
+"model" "_prefabs/zombiemode/nazi_sumpf_window.map"
+"classname" "misc_prefab"
+"origin" "2.5 1.5 -1.3"
+}

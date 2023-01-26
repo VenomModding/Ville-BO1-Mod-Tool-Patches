@@ -1,0 +1,71 @@
+VERSION             "1"
+CONFIG              "C:\projects\cod\t5\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE           MP40
+LANG_ENGLISH        "MP40"
+
+REFERENCE           BAR
+LANG_ENGLISH        "BAR"
+
+REFERENCE           KAR98K
+LANG_ENGLISH        "Kar98k"
+
+REFERENCE           THOMPSON
+LANG_ENGLISH        "Thompson"
+
+REFERENCE           M1A1CARBINE
+LANG_ENGLISH        "M1A1 Carbine"
+
+REFERENCE           SHOTGUN_DOUBLE_BARRELED_SAWED_GRIP
+LANG_ENGLISH        "Sawed-Off Double-Barreled Shotgun w/ Grip"
+
+REFERENCE           SHOTGUN
+LANG_ENGLISH        "M1897 Trench Gun"
+
+REFERENCE           SHOTGUN_DOUBLE_BARRELED
+LANG_ENGLISH        "Double-Barreled Shotgun"
+
+REFERENCE           STG-44
+LANG_ENGLISH        "STG-44"
+
+REFERENCE           KAR98K_SCOPED_SP
+LANG_ENGLISH        "Scoped Kar98k"
+
+REFERENCE           GEWEHR43
+LANG_ENGLISH        "Gewehr 43"
+
+REFERENCE           M1GARAND
+LANG_ENGLISH        "M1 Garand"
+
+REFERENCE           MINE_BOUNCING_BETTY
+LANG_ENGLISH        "Bouncing Betty"
+
+REFERENCE           PPSH
+LANG_ENGLISH        "PPSh-41"
+
+REFERENCE           FG42
+LANG_ENGLISH        "FG42"
+
+REFERENCE           TYPE99_RIFLE
+LANG_ENGLISH        "Arisaka"
+
+REFERENCE           TYPE100_SMG
+LANG_ENGLISH        "Type 100"
+
+REFERENCE           SVT40
+LANG_ENGLISH        "SVT-40"
+
+REFERENCE           PTRS41
+LANG_ENGLISH        "PTRS-41"
+
+REFERENCE           30CAL
+LANG_ENGLISH        "Browning M1919"
+
+REFERENCE           M2_FLAMETHROWER
+LANG_ENGLISH        "M2 Flamethrower"
+
+REFERENCE           SPRINGFIELD
+LANG_ENGLISH        "Springfield"
+
+ENDMARKER

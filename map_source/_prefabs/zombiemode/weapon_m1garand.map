@@ -1,0 +1,78 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"sunlight" "0.75"
+"suncolor" "0.64 0.85 1"
+"sundirection" "-150 17 0"
+"diffusefraction" "0.15"
+"sundiffusecolor" "0.25 0.55 0.8"
+"ambient" "0.1"
+"_color" "0.5 0.5 0.7"
+"contrastgain" "0.35"
+"bouncefraction" "0.3"
+"sunisprimarylight" "1"
+"skyboxmodel" "skybox_zombie"
+"reflection_color_correction" "zombie"
+"classname" "worldspawn"
+}
+// entity 1
+{
+"target" "m1garand_chalk"
+"angles" "0 180 0"
+"targetname" "m1garand"
+"origin" "1395.5 481.8 1442.0"
+"model" "weapon_zombie_m1garand_rifle"
+"classname" "script_model"
+}
+// entity 2
+{
+"script_noteworthy" "m1garand"
+"angles" "0 0 0"
+"origin" "0 0 0"
+"zombie_weapon_upgrade" "zombie_m1garand"
+"targetname" "weapon_upgrade"
+"target" "m1garand"
+"classname" "trigger_use"
+// brush 0
+{
+ ( 1371.5 481.7756 1436 ) ( 1419.5 481.7756 1436 ) ( 1419.5 485.7756 1436 ) trigger 64 64 -1395.4735 481.76605 180 1.2922175e-005 lightmap_gray 16384.043 16383.762 -1395.4642 481.77509 180 7.4238043e-005
+ ( 1419.5 485.7756 1445 ) ( 1419.5 481.7756 1445 ) ( 1371.5 481.7756 1445 ) trigger 64 64 -1395.4735 481.76605 180 1.2922175e-005 lightmap_gray 16384.043 16383.762 -1395.4642 481.77509 180 7.4238043e-005
+ ( 1419.5 484.7756 1443 ) ( 1371.5 484.7756 1443 ) ( 1371.5 484.7756 1439 ) trigger 64 -64 -1395.5178 1443 180 3.0849253e-005 lightmap_gray 16384.172 -16384 -1395.5 1443.0095 -180 0
+ ( 1374.5 485.7756 1443 ) ( 1374.5 481.7756 1443 ) ( 1374.5 481.7756 1439 ) trigger 64 -63.998047 -481.77087 1443.1273 180 0.0001456832 lightmap_gray 16383.898 -16383.5 -481.79544 1443.1273 180 0.00014572334
+ ( 1371.5 481.7756 1443 ) ( 1419.5 481.7756 1443 ) ( 1419.5 481.7756 1439 ) trigger 64 -63.996094 -1395.4131 1443.0154 180 0 lightmap_gray 16383.961 -16385.004 -1395.4319 1443.0302 180 0
+ ( 1418.5 481.7756 1443 ) ( 1418.5 485.7756 1443 ) ( 1418.5 485.7756 1439 ) trigger 64 -63.994141 -481.79419 1442.9622 -180 4.8875852e-005 lightmap_gray 16384.521 -16382.5 -481.77197 1442.9622 180 0
+}
+}
+// entity 3
+{
+"origin" "0 0 0"
+"angles" "0 0 0"
+"targetname" "m1garand_chalk"
+"classname" "script_brushmodel"
+// brush 0
+ {
+  curve
+  {
+   m1garand_chalk
+   lightmap_gray
+   3 3 16 8
+   (
+	v 1371.5 481.7756 1447 t 0 -1024 84.5 -90.8125
+	v 1371.5 481.7756 1441 t 0 -512 84.5 -90.4375
+	v 1371.5 481.7756 1435 t 0 -0 84.5 -90.0625
+   )
+   (
+	v 1396.5 481.7756 1447 t 512 -1024 86.0625 -90.8125
+	v 1396.5 481.7756 1441 t 512 -512 86.0625 -90.4375
+	v 1396.5 481.7756 1435 t 512 -0 86.0625 -90.0625
+   )
+   (
+	v 1421.5 481.7756 1447 t 1024 -1024 87.625 -90.8125
+	v 1421.5 481.7756 1441 t 1024 -512 87.625 -90.4375
+	v 1421.5 481.7756 1435 t 1024 -0 87.625 -90.0625
+   )
+  }
+ }
+}

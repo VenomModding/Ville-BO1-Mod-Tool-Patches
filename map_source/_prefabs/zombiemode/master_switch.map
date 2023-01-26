@@ -1,0 +1,81 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -279.75 -204 225 ) ( -291.75 -204 225 ) ( -291.75 -246 225 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -291.75 -246 320.5 ) ( -291.75 -204 320.5 ) ( -279.75 -204 320.5 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -292 -244 320 ) ( -280 -244 320 ) ( -280 -244 224 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -281.25 -246 320 ) ( -281.25 -204 320 ) ( -281.25 -204 224 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -280 -204.75 320 ) ( -292 -204.75 320 ) ( -292 -204.75 224 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -291.5 -204 320 ) ( -291.5 -246 320 ) ( -291.5 -246 224 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"targetname" "use_master_switch"
+"classname" "trigger_use"
+// brush 0
+{
+ ( -304 -216 256 ) ( -312 -216 256 ) ( -312 -224 256 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -312 -224 280 ) ( -312 -216 280 ) ( -304 -216 280 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -312 -240 256 ) ( -304 -240 256 ) ( -304 -240 248 ) trigger 64 64 0 16 0 0 lightmap_gray 16384 16384 0 16 0 0
+ ( -288 -224 256 ) ( -288 -216 256 ) ( -288 -216 248 ) trigger 64 64 0 16 0 0 lightmap_gray 16384 16384 0 16 0 0
+ ( -312 -208 256 ) ( -320 -208 256 ) ( -320 -208 248 ) trigger 64 64 0 16 0 0 lightmap_gray 16384 16384 0 16 0 0
+ ( -320 -216 256 ) ( -320 -224 256 ) ( -320 -224 248 ) trigger 64 64 0 16 0 0 lightmap_gray 16384 16384 0 16 0 0
+}
+}
+// entity 2
+{
+"origin" "-295.5 -225.0 284.0"
+"targetname" "switch_fx"
+"classname" "script_struct"
+}
+// entity 3
+{
+"targetname" "master_switch"
+"angles" "5.61312e-006 270 90"
+"origin" "-294.0 -224.0 271.0"
+"classname" "script_model"
+"model" "zombie_power_lever_handle_arm"
+}
+// entity 4
+{
+"classname" "misc_model"
+"model" "zombie_power_lever"
+"origin" "-286.4 -224.6 225.0"
+"angles" "0.0000 -90.0000 0.0000"
+"modelscale" "1"
+}
+// entity 5
+{
+"radius" "23"
+"origin" "-296.0 -224.3 308.5"
+"_color" "1 1 0.94902"
+"color" "1 1 0.866667"
+"intensity" "0.7"
+"classname" "info_corona"
+}
+// entity 6
+{
+"origin" "-296.0 -224.0 284.0"
+"targetname" "auto1"
+"classname" "info_null"
+}
+// entity 7
+{
+"classname" "light"
+"intensity" "1.2"
+"_color" "1 1 1"
+"radius" "70"
+"def" "light_point_linear"
+"target" "auto1"
+"exponent" "1"
+"fov_inner" "60"
+"fov_outer" "90"
+"spawnflags" "2"
+"origin" "-300.0 -224.0 302.0"
+}

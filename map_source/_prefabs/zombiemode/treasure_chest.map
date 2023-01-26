@@ -1,0 +1,67 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 12 47 0 ) ( -12 47 0 ) ( -12 -47 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -47 19 ) ( -12 47 19 ) ( 12 47 19 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -47 19 ) ( 12 -47 19 ) ( 12 -47 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -47 19 ) ( 12 47 19 ) ( 12 47 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 47 19 ) ( -12 47 19 ) ( -12 47 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 47 19 ) ( -12 -47 19 ) ( -12 -47 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"script_noteworthy" "chest"
+"zombie_cost" "950"
+"targetname" "treasure_chest_use"
+"hintstring" "Press use - 950pts for random weapon"
+"target" "chest_lid"
+"classname" "trigger_use"
+// brush 0
+{
+ ( 36 28 18 ) ( 16 28 18 ) ( 16 -26 18 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 -2 0 0 0
+ ( 16 -26 56 ) ( 16 28 56 ) ( 36 28 56 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 -2 0 0 0
+ ( 18 -12 56 ) ( 38 -12 56 ) ( 38 -12 18 ) trigger 64 64 0 -2 0 0 lightmap_gray 16384 16384 -2 -2 0 0
+ ( 36 -28 56 ) ( 36 26 56 ) ( 36 26 18 ) trigger 64 64 0 -2 0 0 lightmap_gray 16384 16384 0 -2 0 0
+ ( 34 14 56 ) ( 14 14 56 ) ( 14 14 18 ) trigger 64 64 0 -2 0 0 lightmap_gray 16384 16384 -2 -2 0 0
+ ( 16 28 56 ) ( 16 -26 56 ) ( 16 -26 18 ) trigger 64 64 0 -2 0 0 lightmap_gray 16384 16384 0 -2 0 0
+}
+}
+// entity 2
+{
+"classname" "script_model"
+"model" "zombie_treasure_box_lid"
+"angles" "0 270 0"
+"origin" "-12.0 0.0 18.0"
+"targetname" "chest_lid"
+"target" "chest_origin"
+}
+// entity 3
+{
+"classname" "script_model"
+"model" "zombie_treasure_box"
+"angles" "0 270 0"
+"origin" "0.0 0.0 0.0"
+"targetname" "chest_box"
+}
+// entity 4
+{
+"script_noteworthy" "chest_rubble"
+"origin" "-5.8 0.1 7.0"
+"model" "tag_origin"
+"classname" "script_model"
+"angles" "0 180.2 0"
+}
+// entity 5
+{
+"origin" "0.0 0.0 3.0"
+"targetname" "chest_origin"
+"angles" "0 0 0"
+"classname" "script_origin"
+"target" "chest_box"
+}

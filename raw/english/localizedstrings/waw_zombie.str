@@ -1,0 +1,110 @@
+VERSION             "1"
+CONFIG              "C:\projects\cod\t5\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE           ZIPLINE_DEACTIVATED
+LANG_ENGLISH        "Zipline must be activated before use"
+
+REFERENCE           ZIPLINE_USE
+LANG_ENGLISH        "Press & hold ^3F ^7to activate the Zipline [Cost: 1500]"
+
+REFERENCE           ZIPLINE_ACTIVATE
+LANG_ENGLISH        "Press & hold ^3F ^7to turn on the Zipline"
+
+REFERENCE           BUTTON_NORTH_FLAMES
+LANG_ENGLISH        "Press & hold ^3F ^7to activate the electric barrier [Cost: 1000]"
+
+REFERENCE           BUTTON_SOUTH_FLAMES
+LANG_ENGLISH        "Press & hold ^3F ^7to activate the flame barrier [Cost: 500]"
+
+REFERENCE           ACTIVATE_TRAP
+LANG_ENGLISH        "Press & hold ^3F ^7to Activate Trap [Cost: 750]"
+
+REFERENCE           CLEAR_DEBRIS
+LANG_ENGLISH        "Gate must be opened first"
+
+REFERENCE           WEAPON_BAR_1800
+LANG_ENGLISH        "Hold ^3F ^7to buy BAR [Cost: &&1]"
+
+REFERENCE           WEAPON_KAR98K_200
+LANG_ENGLISH        "Hold ^3F ^7to buy Kar98k [Cost: &&1]"
+
+REFERENCE           WEAPON_STIELHANDGRANATE_250
+LANG_ENGLISH        "Hold ^3F ^7to buy Stielhandgranate [Cost: &&1]"
+
+REFERENCE           WEAPON_M1GARAND_600
+LANG_ENGLISH        "Hold ^3F ^7to buy M1 Garand [Cost: &&1]"
+
+REFERENCE           WEAPON_M1CARBINE_600
+LANG_ENGLISH        "Hold ^3F ^7to buy M1 Carbine [Cost: &&1]"
+
+REFERENCE           WEAPON_STG44_1200
+LANG_ENGLISH        "Hold ^3F ^7to buy STG-44 [Cost: &&1]"
+
+REFERENCE           WEAPON_DOUBLEBARREL_1200
+LANG_ENGLISH        "Hold ^3F ^7to buy Double-Barreled Shotgun [Cost: &&1]"
+
+REFERENCE           WEAPON_DOUBLEBARREL_SAWED_1200
+LANG_ENGLISH        "Hold ^3F ^7to buy Sawed-Off Shotgun [Cost: &&1]"
+
+REFERENCE           WEAPON_SHOTGUN_1500
+LANG_ENGLISH        "Hold ^3F ^7to buy M1897 Trench Gun [Cost: &&1]"
+
+REFERENCE           WEAPON_THOMPSON_1200
+LANG_ENGLISH        "Hold ^3F ^7to buy Thompson [Cost: &&1]"
+
+REFERENCE           WEAPON_KAR98K_S_750
+LANG_ENGLISH        "Hold ^3F ^7to buy Kar98k + Scope [Cost: &&1]"
+
+REFERENCE           WEAPON_GEWEHR43_600
+LANG_ENGLISH        "Hold ^3F ^7to buy Gewehr 43 [Cost: &&1]"
+
+REFERENCE           WEAPON_PPSH_2000
+LANG_ENGLISH        "Hold ^3F ^7to buy PPSh-41 [Cost: &&1]"
+
+REFERENCE           WEAPON_TYPE99_200
+LANG_ENGLISH        "Hold ^3F ^7to buy Type 99 [Cost: &&1]"
+
+REFERENCE           WEAPON_FG42_1500
+LANG_ENGLISH        "Hold ^3F ^7to buy FG42 [Cost: &&1]"
+
+REFERENCE           WEAPON_FG42_BIPOD_2000
+LANG_ENGLISH        "Hold ^3F ^7to buy FG42 + Bipod [Cost: &&1]"
+
+REFERENCE           WEAPON_TYPE100_1000
+LANG_ENGLISH        "Hold ^3F ^7to buy Type 100 [Cost: &&1]"
+
+REFERENCE           WEAPON_PTRS41_750
+LANG_ENGLISH        "Hold ^3F ^7to buy PTRS-41 [Cost: &&1]"
+
+REFERENCE           WEAPON_SVT40_600
+LANG_ENGLISH        "Hold ^3F ^7to buy SVT-40 [Cost: &&1]"
+
+REFERENCE           WEAPON_30CAL_3000
+LANG_ENGLISH        "Hold ^3F ^7to buy Browning M1919 [Cost: &&1]"
+
+REFERENCE           WEAPON_M2_FLAMETHROWER_3000
+LANG_ENGLISH        "Hold ^3F ^7to buy Flamethrower [Cost: &&1]"
+
+REFERENCE           WEAPON_MP40_1000
+LANG_ENGLISH        "Hold ^3F ^7to buy MP40 [Cost: &&1]"
+
+REFERENCE           WEAPON_SPRINGFIELD_200
+LANG_ENGLISH        "Hold ^3F ^7to buy Springfield [Cost: &&1]"
+
+REFERENCE           WEAPONCOSTAMMO
+LANG_ENGLISH        "Hold ^3F ^7Weapon [&&1], Ammo [&&2]"
+
+REFERENCE           ELECTRIC_SWITCH
+LANG_ENGLISH        "Hold ^3F ^7to turn on the electricity"
+
+REFERENCE           INTRO_ASYLUM_LEVEL_BERLIN
+LANG_ENGLISH        "Dom Na Krayu"
+
+REFERENCE           INTRO_ASYLUM_LEVEL_HIMMLER
+LANG_ENGLISH        "Dr.Maxis Secret Residency "
+
+REFERENCE           INTRO_ASYLUM_LEVEL_SEPTEMBER
+LANG_ENGLISH        "Juli 05, 1945"
+
+ENDMARKER

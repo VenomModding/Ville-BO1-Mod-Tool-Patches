@@ -1,0 +1,59 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"zombie_weapon_upgrade" "zombie_kar98k"
+"skyboxmodel" "skybox_zombie"
+"_color" "0.5 0.5 .62 1"
+"ambient" ".15"
+"sundiffusecolor" "0.75 0.82 0.85"
+"diffusefraction" ".5"
+"classname" "worldspawn"
+"sundirection" "-130  40 0"
+"suncolor" "0.9 0.95 1"
+"sunlight" "1.5"
+// brush 0
+ {
+  mesh
+  {
+   k98_chalk
+   lightmap_gray
+   2 2 16 8
+   (
+	v 864 -203 109.5 t 3072 -11264 9.2903252 -8.53125
+	v 864 -263 109.5 t 4096.0005 -11264 5.5402241 -8.53125
+   )
+   (
+	v 864 -203 120 t 3072 -12288 9.2903252 -9.1875
+	v 864 -263 120 t 4096.0005 -12288 5.5402241 -9.1875
+   )
+  }
+ }
+}
+// entity 1
+{
+"target" "auto90"
+"script_ammo_clip" "300"
+"zombie_cost" "600"
+"zombie_weapon_upgrade" "zombie_kar98k"
+"targetname" "weapon_upgrade"
+"classname" "trigger_use"
+// brush 0
+{
+ ( 864 -260 106 ) ( 868 -260 106 ) ( 868 -210 106 ) trigger 64 63.992188 -893.40881 -780.9043 -90 0.00012180001 lightmap_gray 16411.986 16387.104 1114.3846 5731.7729 -1.5671543 -0.0034814272
+ ( 864 -210 122 ) ( 868 -210 122 ) ( 868 -260 122 ) trigger 64 63.992287 -892.83539 -780.88849 -90 -0.00048936135 lightmap_gray 16397.408 16386.059 1113.85 5734.4155 -1.3919017 -0.0011015974
+ ( 864 -260 106 ) ( 864 -260 122 ) ( 868 -260 122 ) trigger 64.010513 64 780.88837 -3.0058746 0 0 lightmap_gray 16397.184 16383.969 1109.1848 -16.774717 0 0
+ ( 868 -210 106 ) ( 868 -260 106 ) ( 868 -260 122 ) trigger 64 -64 -893.3833 3 -180 0 lightmap_gray 16394.217 16384 -5758.334 -16.670382 0 0.00036763638
+ ( 868 -210 106 ) ( 868 -210 122 ) ( 864 -210 122 ) trigger 64 64 780.89539 -2.9966049 0 0 lightmap_gray 16373.175 16384 1109.4596 -16.703239 0 0
+ ( 866 -210 122 ) ( 866 -260 122 ) ( 866 -260 106 ) trigger 64 -64 -893.35309 3 180 -5.7491703e-005 lightmap_gray 16377.298 16384.094 -5752.5703 -16.67873 0 0.000425342
+}
+}
+// entity 2
+{
+"targetname" "auto90"
+"classname" "script_model"
+"model" "weapon_ger_kar98_rifle"
+"angles" "0 90 0"
+"origin" "864.2 -235.3 116.0"
+}

@@ -1,0 +1,67 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"origin" "-404 1216 -640"
+"spawnflags" "1024"
+"waterdirection " "80"
+"classname" "worldspawn"
+"northyaw" "225"
+"skyboxmodel" "skybox_pel1"
+"sundirection" "-40.5026 38.2786 0"
+"suncolor" "1 0.9254 0.8627"
+"sunlight" "1"
+"sundiffusecolor" "0.255 0.34078 0.427451"
+"diffusefraction" "0.175"
+"_color" "0.245 0.231 0.2135"
+"ambient" "0.15"
+"sunradiosity" "1.3"
+"radiosityscale" ".75"
+"contrastgain" ".8"
+// brush 0
+ {
+  mesh
+  {
+  toolFlags;
+   thompson_chalk
+   lightmap_gray
+   2 2 16 8
+   (
+	v 13.499991 -0.00021994114 7.500001 t 0 -1024 0.84374946 -0.46875
+	v 13.499991 -0.00021994114 -13.500001 t 0 -0 0.84374946 0.84375
+   )
+   (
+	v -27.499983 0.00021922588 7.500001 t 1024 -1024 -1.7187489 -0.46875
+	v -27.499983 0.00021922588 -13.500001 t 1024 -0 -1.7187489 0.84375
+   )
+  }
+ }
+}
+// entity 1
+{
+"angles" "0 0 0"
+"targetname" "thompson"
+"origin" "0.0 0.0 0.0"
+"model" "weapon_zombie_thompson_smg"
+"classname" "script_model"
+}
+// entity 2
+{
+"script_noteworthy" "thompson"
+"angles" "0 0 0"
+"origin" "0 0 0"
+"zombie_weapon_upgrade" "zombie_thompson"
+"targetname" "weapon_upgrade"
+"target" "thompson"
+"classname" "trigger_use"
+// brush 0
+{
+ ( 24 0 -8 ) ( -24 0 -8 ) ( -24 -4 -8 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -4 3 ) ( -24 0 3 ) ( 24 0 3 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -3 1 ) ( 24 -3 1 ) ( 24 -3 -3 ) trigger 64 64 0 -1 0 0 lightmap_gray 16384 16384 0 -1 0 0
+ ( 12 -4 0 ) ( 12 0 0 ) ( 12 0 -4 ) trigger 64 64 0 -1 0 0 lightmap_gray 16384 16384 0 -1 0 0
+ ( 24 0 1 ) ( -24 0 1 ) ( -24 0 -3 ) trigger 64 64 0 -1 0 0 lightmap_gray 16384 16384 0 -1 0 0
+ ( -25 0 1 ) ( -25 -4 1 ) ( -25 -4 -3 ) trigger 64 64 0 -1 0 0 lightmap_gray 16384 16384 0 -1 0 0
+}
+}

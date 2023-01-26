@@ -1,0 +1,70 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"skyboxmodel" "skybox_zombie_asylum"
+"_color" "0.5333 0.5529 0.6274"
+"ambient" ".2"
+"sundiffusecolor" "0.5333 0.5529 0.6274"
+"diffusefraction" ".2"
+"classname" "worldspawn"
+"sundirection" "-160.96 111 0"
+"suncolor" "1 0.54 0.13"
+"sunlight" "2.4"
+}
+// entity 1
+{
+"target" "magic_box_weapon_spawn_5"
+"targetname" "magic_box_lid_5"
+"origin" "0.0 12.0 18.0"
+"angles" "0 180 0"
+"model" "zombie_treasure_box_lid"
+"classname" "script_model"
+"gndlt" "1f1e1f001c"
+}
+// entity 2
+{
+"target" "magic_box_base_5"
+"classname" "script_origin"
+"angles" "0 270 0"
+"targetname" "magic_box_weapon_spawn_5"
+"origin" "0.0 0.0 3.0"
+}
+// entity 3
+{
+"zombie_cost" "950"
+"script_noteworthy" "magic_box_south"
+"targetname" "treasure_chest_use"
+"target" "magic_box_lid_5"
+"angles" "0 -90 0"
+"origin" "-201 -454 263"
+"classname" "trigger_use"
+// brush 0
+{
+ ( -12.5 -46 18 ) ( 43.5 -46 18 ) ( 43.5 -24 18 ) trigger 64 -64 -188 410 180 0 lightmap_gray 16383.941 16383.932 188 -410 0 0
+ ( -12 -28 56 ) ( 44 -28 56 ) ( 44 -50 56 ) trigger 64 -64 -188 410 180 0 lightmap_gray 16383.955 16383.932 188 -410 0 0
+ ( -10 -36 84 ) ( -10 -36 128 ) ( 46 -36 128 ) trigger 64 -64 -188 -186 180 0 lightmap_gray 16383.873 16384.094 188 186 0 0
+ ( 14 -22.5 84 ) ( 14 -44.5 84 ) ( 14 -44.5 128 ) trigger 64 -64 -410 -186 180 0 lightmap_gray 16384.068 16383.932 410 186 0 0
+ ( 44 -16 84 ) ( 44 -16 128 ) ( -12 -16 128 ) trigger 64 -64 -188 -186 180 0 lightmap_gray 16384.057 16383.908 188 186 0 0
+ ( -12 -22 128 ) ( -12 -44 128 ) ( -12 -44 84 ) trigger 64 -64 -410 -186 180 0 lightmap_gray 16384.047 16384.09 410 186 0 0
+}
+}
+// entity 4
+{
+"targetname" "magic_box_base_5"
+"angles" "0 180 0"
+"model" "zombie_treasure_box"
+"classname" "script_model"
+"gndlt" "1f1e1f001c"
+"origin" "0.0 0.0 0.0"
+}
+// entity 5
+{
+"gndlt" "2a2827001c"
+"origin" "0.0 0.0 0.0"
+"script_noteworthy" "magic_box_south_rubble"
+"angles" "0 180 0"
+"model" "zombie_treasure_box_rubble"
+"classname" "script_model"
+}
