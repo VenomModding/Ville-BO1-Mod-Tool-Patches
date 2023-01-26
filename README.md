@@ -8,7 +8,7 @@ All updates are better with [T5-MissingAssets](https://github.com/VenomModding/T
 # Credits
 Ville88 - Black Ops Mod Tools Patches 1.3, 1.4.1, 1.4.2, 1.4.3
 
-JustVenom - Hosting on GitHub
+RealVenom - Hosting on GitHub
 
 # Discord
 [Venom Modding, the home of T5-MissingAssets](https://ouo.io/QK00XQ)
